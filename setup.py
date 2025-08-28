@@ -1,7 +1,6 @@
 import os
 import sys
 import subprocess
-import pymysql
 
 def check_database_connection():
     """Check if we have Azure SQL Server connection details"""

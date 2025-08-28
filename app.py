@@ -7,8 +7,6 @@ from functools import wraps
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.sql import func
 from sqlalchemy import text
-import mysql.connector
-from mysql.connector import Error
 from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
