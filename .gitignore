@@ -56,3 +56,5 @@ Thumbs.db
 # Weather API keys and config
 .env.local
 config.local.py 
+
+id_rsa

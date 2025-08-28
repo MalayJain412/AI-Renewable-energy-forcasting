@@ -20,7 +20,7 @@ services:
       timeout: 10s
       retries: 3
     volumes:
-      - ./logs:/app/logs
+      - /opt/renewable-energy-app/logs:/app/logs
     networks:
       - app-network
 
